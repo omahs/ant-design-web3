@@ -1,10 +1,11 @@
 ---
 nav: 组件
+subtitle: 连接钱包弹窗
 group: 连接
 order: 2
 ---
 
-# ConnectModal 连接钱包弹窗
+# ConnectModal
 
 连接钱包弹窗，与 [ConnectButton](../connect-button/index.zh-CN.md) 配合使用完成钱包的链接流程。通常来说，你只要直接使用 [Connector](../connector/index.zh-CN.md) 组件即可。
 
@@ -52,6 +53,8 @@ order: 2
 | group | 钱包是否需要分组 | `boolean` \| `{groupOrder: (a: string, b: string) => number}` | `true` | - |
 | mode | 弹窗模式 | `'simple' \| 'normal' \| 'auto'` | `'auto'` | - |
 | guide | 新手指引内容 | `DefaultGuide` | [DefaultGuide](#defaultguide) | - |
+| actionRef | 用于控制组件 | `MutableRefObject<ConnectModalActionType>` | - | - |
+| defaultSelectedWallet | 默认选中的钱包 | `Wallet` | - | - |
 | locale | 多语言设置 | `Locale["ConnectModal"]` | - | - |
 
 其他弹框属性详见： [ModalProps](https://ant.design/components/modal-cn#api)

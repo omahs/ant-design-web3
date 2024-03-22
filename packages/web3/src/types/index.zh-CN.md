@@ -1,10 +1,11 @@
 ---
 nav: 组件
+subtitle: 类型
 group: 通用
 order: 3
 ---
 
-# Types 类型
+# Types
 
 这里定义了 Ant Design Web3 统一类型，在多个组件中可能都会用到。
 
@@ -40,6 +41,7 @@ order: 3
 | group | 钱包所属分组名称 | `string` | - | - |
 | hasWalletReady | 是否已安装浏览器扩展程序 | `() => boolean` | - | - |
 | getQrCode | 获取钱包的二维码 | `() => { uri: string }` | - | - |
+| universalProtocol | 通用协议配置 | `{ link: string }` | - | - |
 
 ### ExtensionItem
 

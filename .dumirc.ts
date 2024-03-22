@@ -155,7 +155,13 @@ export default defineConfig({
             {
               title: 'ZAN',
               description: 'Web3 tools and services',
-              url: 'https://zan.top',
+              url: 'https://zan.top?chInfo=ch_antdweb3',
+              openExternal: true,
+            },
+            {
+              title: 'Theme Editor',
+              description: 'Customize theme',
+              url: '/theme-editor',
               openExternal: true,
             },
           ],
@@ -211,7 +217,13 @@ export default defineConfig({
             {
               title: 'ZAN',
               description: 'Web3 工具服务',
-              url: 'https://zan.top',
+              url: 'https://zan.top?chInfo=ch_antdweb3',
+              openExternal: true,
+            },
+            {
+              title: '主题编辑器',
+              description: '定制主题',
+              url: '/theme-editor-cn',
               openExternal: true,
             },
           ],

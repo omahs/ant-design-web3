@@ -1,10 +1,11 @@
 ---
 nav: 组件
+subtitle: 连接钱包按钮
 group: 连接
 order: 1
 ---
 
-# ConnectButton 连接钱包按钮
+# ConnectButton
 
 连接区块链钱包的按钮。通常来说，你需要配合 [Connector](../connector/index.zh-CN.md) 组件使用。
 
@@ -13,6 +14,12 @@ order: 1
 ## 基本使用
 
 <code src="./demos/basic.tsx"></code>
+
+## 快速连接
+
+配置了 `quickConnect` 属性后，会在按钮上直接展示已安装的钱包和通用协议（比如 WalletConnect）的钱包。
+
+<code src="./demos/quick-connect"></code>
 
 ## 展示提示
 
@@ -62,6 +69,8 @@ order: 1
 | onMenuItemClick | 菜单项点击事件 | `(e: NonNullable<MenuProps['items']>[number]) => void` | - | - |
 | balance | 余额 | [Balance](#balance) | - | - |
 | availableChains | 可以连接的链列表 | [Chain](../types/index.zh-CN.md#chain)\[] | - | - |
+| awailableWallets | 可用的钱包列表 | [Wallet](../types/index.zh-CN.md#wallet)\[] | - | - |
+| quickConnect | 快速连接钱包 | `boolean` | `false` | - |
 | locale | 多语言设置 | `Locale["ConnectButton"]` | - | - |
 
 ### Balance
