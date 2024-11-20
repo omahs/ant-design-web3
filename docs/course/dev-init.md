@@ -63,7 +63,7 @@ Next, we install the basic components of Ant Design and Ant Design Web3 to the p
 npm i @ant-design/web3 --save
 ```
 
-After the installation is complete, you need configure the `next.config.js` because of [an existing issue](https://github.com/ant-design/ant-design/issues/46053) in the current version of Next.js:
+After the installation is complete, you need to configure the `next.config.js` because of [an existing issue](https://github.com/ant-design/ant-design/issues/46053) in the current version of Next.js:
 
 ```diff
 /** @type {import('next').NextConfig} */
